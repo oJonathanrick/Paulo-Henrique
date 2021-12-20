@@ -1,0 +1,49 @@
+@charset "UTF-8";
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #D6BC8C;
+    height: 10vh;
+}
+
+main{
+    background: url('Img/bacxk.jpg') no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
