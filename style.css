@@ -31,7 +31,7 @@ nav{
 }
 
 main{
-    background: url('Img/bacxk.jpg') no-repeat center center;
+    background: url('Img/pao.jpg') no-repeat center center;
     background-size: cover;
     height: 90vh;
 }
@@ -46,4 +46,11 @@ main{
 .nav-list li{
     letter-spacing: 3px;
     margin-left: 32px;
+}
+
+footer{
+    color: blanchedalmond;
+    background-color: #131212;
+    height: 300px;
+    margin-bottom: 0px;
 }
